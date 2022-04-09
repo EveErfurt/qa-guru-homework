@@ -103,9 +103,9 @@ public class StudentRegistrationFormPage {
         return this;
     }
 
-    public ThanksForSubmittingLoadedPopup clickButtonSubmit() {
+    public ThanksForSubmittingPopup clickButtonSubmit() {
         clickButtonSubmit.click();
-        return new ThanksForSubmittingLoadedPopup();
+        return new ThanksForSubmittingPopup();
     }
 
     public StudentRegistrationFormPage clickButtonSubmitPageNotClose() {
